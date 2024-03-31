@@ -1,0 +1,5 @@
+node_modules
+.idea
+mmorpg-engine.iml
+.parcel-cache
+dist

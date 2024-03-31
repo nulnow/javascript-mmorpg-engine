@@ -1,0 +1,150 @@
+{
+  "warior": {
+    "sprites": {},
+    "config": {}
+  },
+  "slime": {
+    "sprites": {
+      "attack": [
+        {
+          "name": "slime-attack-0.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/attack/slime-attack-0.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABK0lEQVRIie2UMUvDQBiGnxbBwTlkKLXFP9BJl+LQ3cExq/9AEINjJ4eK4D9wDU4dgotDdwuB/gGxxQ4ho3RxME5fvGt7yQXBLvcsgePue997v+8CDofD4XDsmEbdA+PpKrfde358UFl/r65wNMmKtcUsJry84MhrAnD7lBIMPGSfatZkxiqB8XSVR5OMxSzW1kX8Lfvm6nq4ce7+bliYEaKwq2lWJmAST5dzAKM4wOjhEYDD3pmxfmkCJnHVgA1+q1MYCQae1g7rGQB4aX8A8Jkk9OlZn/s1GxOhp1FqQL19upzznLxy2t6n/2UvXkWz1EDYbaj9u/FP/iS+bRa2JhCM3nNA673f6tTq+zoyB1JfXsNGAqq4OJavWqSusOklFNMowv/F+v9gZ/wArbZ5ZbANGY8AAAAASUVORK5CYII="
+        },
+        {
+          "name": "slime-attack-1.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/attack/slime-attack-1.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABKUlEQVRIie2TIW/CQBiGn5IlE2hS0UDJ/kBVZ8jE7FLBHHLoGZJlzdQyjeIfzFYimpkJ/Eia8AeWlayiqVwwE+vUlYOU5goJmHtcv/Tuee++70Cj0Wg0mhNj7LtwOl/lqv/23eZOz9m+4mCWAbBchPijIRetBgC3d88AmJZdGnY7TK0bmM5XeTDLWC7Coibkn9kfD48vpetMy8YfDYvQAIHfNQAah8gFVXLBePJaWle6gSp5msQqWwDrtnQcj8F1i77bNGrPAMB7+xuAnyiih6O8bh02JMADFIdQPn2axLxFH1y1z+n9qst3oTQDgd81Oo5XfD+ZlwfJ5b0qb2Aw/sqBjd6bll2r79vIzxNKhlCWyknlFtQVpkmMe3O/URfPsAggxMdCBDg5/+9VduxdA4b9AAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-attack-2.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/attack/slime-attack-2.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABpElEQVRIie2VIU/DQBzFXxcceqloWBf4AFXDYMCSCnCVeHBkC4pMb0H2I5CcHElTgygKRJMl/QCQrWFiqSQzCIoYd/S2u951jBl4pk3veu93r//7F/jXX5dRNjiIZ7nuQiet7dK1ZNoqMyZRBgBIk4CNTSdj3PS73HwSZRxsFZglgEE8y0mUcaaL5rv1GgDg9OyajXlHXQ5GF4KbpGv+kn3gst3lxk3LBgA0HPcLqK6VBEtAZU4lMufnzN8ncLWSENYAANzvvAIA3oZDHMABAKGxCMS0bKRJAAJXOb9Gb4q7n07GCO+e5ubvjnIREYSuvgE6TYN+PwC4MvdXMq+q2uKDhuPCtGyYlo3nh75B71dRmgTweqPSXrIEQJN4vL0wALBr6/gcxatK9DOoIDgA0mkKK5ZCmJaNOPS1IajKIJYSkL0Qhz4743HoVwIokxCA7vinKp4GWQpCgE3q1wFUPUEKQDpNg0a2d9hm0a16JCsDUBXNi4WoqyKwqA6k/wKvN8pl1b7OFITV7vVGeZoE3G5Ff8kqWkyO9hwGoGqZ65as6W1cn6by1MuYuq5cAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-attack-3.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/attack/slime-attack-3.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABgUlEQVRIie2TP0vDQBjGnxQ3Z3EQY/ALZOqi30Ay6BZw0bkOgphROkcEBzs7CTdWCF0csukQKOQLlDSYIWSULg6NQ32vd/nT2qSKQ37LXd673PPc+94LNDQ0NPxH+t4kzc7F2DpplQmbdpDSt2kHvyIOABvZwMHpQ8rcBABg3z9C1Q2EvgMGY2EWjtubyloMAEDoOwDAxSlm+7N16/Jc2s/cRDK3ihluoO9N+M2zRog4GuPutov9rVnlTs5uhNUOn5GZnxhpLdtQJD5KphnxmVkyzNwkl5UypBJkbyyKE6Nkiqvr7oI98/KJJsqywYNUAjLxsvsOAPgYDnH4qS+7SI7tnT0+V3UDzNIKDfASiOJxNMbg+a2yOJ1BhL5T2sqSK9MO0tB3pJ/rIGYBKM5Erg1V3YBYRzErdcTLyHUBszRF1Q28Pl0oonD7qCONVcSLSiFlgFmaYtpBSqM36IFMxFFvqUAVci+THIa+812Oufs6iGcB4G8h9whrqaxAWVv+OV/madK5QI8wiAAAAABJRU5ErkJggg=="
+        },
+        {
+          "name": "slime-attack-4.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/attack/slime-attack-4.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABKklEQVRIiWNgGAWjYBSMglEw0gEjPskNp7/+J9fgAFNuvGbDAAs+i1fsf83AwMDA8OjiFgYGBgaGl08fMvR2NzAoiTIx3Hv9j6G4tAFFn7i0PIYZhByCIbnh9Nf/K/a/hlsKA4Qsx+WQsoJEBnwOQQkBfJYzMDAQZTlMPcwRXRPmw83G5gi4ACHLyQHIIcHAAAkNdEdgTQMMDAwMu2WfMDAwMDB8fn2RwfqXPtmOIASYYAxk3798+pBh28bjDJ/PnaPIcmJCD+GAMgVGOX0fuESFuBlNfY7hABiQ0/dhEJeWZxCXlmcw9cqmyHD0NNA1YT5DRNcDlLIFwwEwRyCHBrJh6IYSazkugJEtYC48vW0qSgig5w5SAbqHVpQpMGI4AD14aAlgDhhwAAAbvoJXrYMiEwAAAABJRU5ErkJggg=="
+        }
+      ],
+      "dying": [
+        {
+          "name": "slime-die-0.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/dying/slime-die-0.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABVklEQVRIie2UoW7DMBCG/05jw1VBpa7SHqBoA0UtDxiM1FcYm1oNDk5BAy0emmRYEI2GDSyob9BUCoiCiz3Q2T1f7MSrqpHlQ4nsu/+/O9tAS0tLy3+nc0rQOt1LABBJCQAIp10AwP3t1a/z1QYoIS7mEgqjrd6vTDUZsy7wCiliMaw1HUZbudvE+n8wCmpNX9rERVKCJ/ERB2DEadNJiXW6lzYThgGXeDjtInp9a9I2KPLs5+uQSyCwmrhwiRd5hiLPkH6sjMQ3k7mEg/FsKU3xY57dJraOtDICykvxBQB4nD9rgc/3h9oxUHEfdAd49Ur8qXdnJFdVcsazpXSJ9/rXzQaoiBKm4j4mTkGPQCyGncM9jr3aqM6Cqq4pRt0kjnOe9FGho3FhM8Jbb7vOFQM24XMzGAXaROUMuMRdLaTrfA/9V+t8j+4ArZxzPB/nw+dV/RO+AZ4LvequnkpfAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-die-1.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/dying/slime-die-1.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABaklEQVRIie1UoW6DUBQ9NHP7AAQJkOwDUExUTTeIySb9hM4tJZOTS9VEq6eWICtILW5iKP6gkCAIuvpN3bfL48FaVtOE43hwzzn3nvsARowYMeIEzNcHcbXig+t36VHs0qO4RPd9HDc6YQCIkhpFFsP2gsa7R//WGGJiutgIAPj6fGrUNx5IfP3+Ic/UgnMxXx9EkcWoyhym5cD2AkShKzknXDxKakRJLYurMseQGKgRACDxLkzUAyrgRUUWn7VMFNN0sRGcR2dEGqDMVTyvXlGV+UkmqPOu70zLaWm0lrAqc7xV3wCAF/Necf9rgudIoM6j0DXU7k3L0ZpukNCm9mWmW6S/OLh47y3gBDojpuXIM3+2lCbUkaf7bauuy0Argi5BMkRk6X6Lu4eV8GdL8GvWNz0deifQB9101HM1d/qp8fhaBvg4dbfiEuA71BmBKm57wb8M8V86hzSgLhIviELXsL1AdJFcNX4A3VnfoIgRJrUAAAAASUVORK5CYII="
+        },
+        {
+          "name": "slime-die-2.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/dying/slime-die-2.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAAA8ElEQVRIie2UIQ6DMBSGH83cDoBYAtwANbMzICZJdg8OUTUxP1uJqOcAVb1BaYIgaHSnHilNa0aTTfQzTV7a///fe0kBEolEIpFI/AstVeYXviS2YC9WbyPBBnuxmpYq04vV3B6vqFNwTX0hCBsW0JIDfb5hnsbdpaNrYV2VoQ5Oxp0QYV2VFXWzFbTk0FJlWqqMLfBNAPsdNsqGZReCYNKibiC/lDBPI2jJvZ0cQUu+abNh2eo7YTuxlhzsyfhC9GI19+s5GA710Dy/lAAAUNTNpncKpbVPO4hNyNw2RtDcrWfuIx+sq7KY/0SMlUbjA9MGi+uNep3GAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-die-3.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/dying/slime-die-3.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAAAWUlEQVRIiWNgGAWjYBSMglEwCkbBKBgFo2CkA0YYwyp6yn9ciuT0fRhWlCnA1UZ0PfiPzEcHEV0P/jMwMDA8urgFrzkMDAwMjDDF+MCKMgWi1JEK8HmCbgAAogEXA0AQuxUAAAAASUVORK5CYII="
+        }
+      ],
+      "dead": [
+        {
+          "name": "slime-die-0.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/dead/slime-die-0.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABVklEQVRIie2UoW7DMBCG/05jw1VBpa7SHqBoA0UtDxiM1FcYm1oNDk5BAy0emmRYEI2GDSyob9BUCoiCiz3Q2T1f7MSrqpHlQ4nsu/+/O9tAS0tLy3+nc0rQOt1LABBJCQAIp10AwP3t1a/z1QYoIS7mEgqjrd6vTDUZsy7wCiliMaw1HUZbudvE+n8wCmpNX9rERVKCJ/ERB2DEadNJiXW6lzYThgGXeDjtInp9a9I2KPLs5+uQSyCwmrhwiRd5hiLPkH6sjMQ3k7mEg/FsKU3xY57dJraOtDICykvxBQB4nD9rgc/3h9oxUHEfdAd49Ur8qXdnJFdVcsazpXSJ9/rXzQaoiBKm4j4mTkGPQCyGncM9jr3aqM6Cqq4pRt0kjnOe9FGho3FhM8Jbb7vOFQM24XMzGAXaROUMuMRdLaTrfA/9V+t8j+4ArZxzPB/nw+dV/RO+AZ4LvequnkpfAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-die-1.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/dead/slime-die-1.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABaklEQVRIie1UoW6DUBQ9NHP7AAQJkOwDUExUTTeIySb9hM4tJZOTS9VEq6eWICtILW5iKP6gkCAIuvpN3bfL48FaVtOE43hwzzn3nvsARowYMeIEzNcHcbXig+t36VHs0qO4RPd9HDc6YQCIkhpFFsP2gsa7R//WGGJiutgIAPj6fGrUNx5IfP3+Ic/UgnMxXx9EkcWoyhym5cD2AkShKzknXDxKakRJLYurMseQGKgRACDxLkzUAyrgRUUWn7VMFNN0sRGcR2dEGqDMVTyvXlGV+UkmqPOu70zLaWm0lrAqc7xV3wCAF/Necf9rgudIoM6j0DXU7k3L0ZpukNCm9mWmW6S/OLh47y3gBDojpuXIM3+2lCbUkaf7bauuy0Argi5BMkRk6X6Lu4eV8GdL8GvWNz0deifQB9101HM1d/qp8fhaBvg4dbfiEuA71BmBKm57wb8M8V86hzSgLhIviELXsL1AdJFcNX4A3VnfoIgRJrUAAAAASUVORK5CYII="
+        }
+      ],
+      "hurt": [
+        {
+          "name": "slime-hurt-0.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/hurt/slime-hurt-0.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABUUlEQVRIie2UMUvDQBTH/1U3Z8lQSItfIJPi6p5Bt4x+ADexOElGSRH6DToJGTtk7+ZgoRA/gDSBDCGjdHEwDuUdj9zluIsFB/OHW+5e3v93L+8e0KtXr17/XYN9JFmstnXb2dXZsdbjwNYoiDZ1cy+azXF3H0rx8bLCYrWtaalyHtkARLO5BBQvK5RFhudpiNOT3X2ubx5FTHAZChiCjydjURVteYJoU+dpgteXWymObs7NP6pvqRLOcAQAcD1f7HEA7S/ggdyYm5NU5gBQFhnKIkOeJsjTROSgc6smpJJTIg5gKmc4guv54nLGTbgPc5WMAFTm7xeHnQyb4EYATfOn8g2f63UnAGpKktUzJPoH5xz4+r25EQC93d0zSjo3XptaAWgGABDl58lMQHTGWgCVuev5EggfLiQew79RxQJsDjRnPFc8GQ9057ZSDbg/0w8Wt8p4x4avBgAAAABJRU5ErkJggg=="
+        },
+        {
+          "name": "slime-hurt-1.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/hurt/slime-hurt-1.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABRElEQVRIiWNgGAWjYBSMgsEONpz++p+W5jMRUrBi/2uGiK4HNHXEgAJGZE5E14P/jy5uYTi2NIcRlwZCAD3KAky58ZpFtkXYLIOBrgnz4eyygkS8jmGhxNIV+18zPLq4BW6RkigkSb18+hBDH3JaWlGmAHcI0SEAs3jF/tdwMXTL773+x1Bc2oCiT1xanoGBgYFBTt8H4RgkB5AUAsg+ZmBA9Sk2y1HVbIE7ZMPpr/9h0UFUCGw4/fU/uuXoDiAWiEvLM8jp+8BDgWA5gAvsln1Clj50RxMdBTDfv3z6kKHj5SmGz6/ZGRgY9El2gKlXNmkOiOh68B+W8GCurxA3Y2D4RbLd8ARJlAOQi99HF7dAUzEiFHAZSCrAcADMYvQEhwywWQzLZsj65PR94HzkbIgM4LkAX4WzokyBkdoVEnJZMKAAAFjAk/MuhRJFAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-hurt-2.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/hurt/slime-hurt-2.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABXklEQVRIie2UsU7DMBCG/0RszFUHRKn6AHQqD4E6MHZlZgEhIsbOQUgszKyRWDpYLAx5gEiR8gKoifAQZURdGAhDesa1HTcEpC75psjO3f/f+Wygo6Ojo2PHOG2CFtGqBICzyb6jrhHyno2934oCQBAWyBKmifoPT8b/bWa2GqBEQViItSxhQtC7PMeo5wIAcp5q8UFYYOYvqxzeUDOiGVhEq1J1TBUTJHR/N8eo5+Kt+ML1zXwjD3VjMJ5aC3TlKgH9XFVxFZM4mcx5iixhIl49MmDdgaYDAwCvh+845tW3SdhkpIIhgN4Nd1sCcp/zFFfxMz7iuKnXGiObNLoFFHzbPwE+W+ljcnphXK/twMxflvLk/5UsYYheHsWNIKwdyBK2nuKfY2hLzlP0D460dePwqS7JzH9A15LeBK0DJK4KDsZTqwlKLP8jx9S9B6IDpqqJwBs6tv02mF7FnfAN87CtrmlqePkAAAAASUVORK5CYII="
+        },
+        {
+          "name": "slime-hurt-3.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/hurt/slime-hurt-3.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABWUlEQVRIie2Uv0rDUBTGvwQ355KhmJY+gJnah5AMjl2dXRQxOHaOCC7OXQMuHYKLQ1YhEMgLSHMxQ8goXQSNg554c/KnaRy65Deee8/5vnvuPRfo6enp6dkzStfElb/JAOB0eqjwGCGv1XHQRRQAHC+FCN2SqH2/rNxfZ6aVASrkeGkeE6GbC1oXZ5gMVABAEkelfMdLMbfXPzWsccFI6w7QiQkSurtdYDJQ8Zp+4ep6UcihbuiGWVtXbRKVTy6Lc6rEyWQSRxChm+fzK9v6SFb+JuMGno/ecPzyuS21hDYcQTfMwjU0doAg8SSOcBk84j0IdhanfE7rN0DJN9oM+Oikj+nJeSnW2IG5vc7kl/9fROjCf3rIJwJo0QERur+v+O8aupLEEbThqBCrNCA75CPEC+wKr1cyQOJ87HTDbBxFKizvkXPq/oJ8HORTcxxrrDStd4H/iHvjGzRhp9ORmZrFAAAAAElFTkSuQmCC"
+        }
+      ],
+      "move": [
+        {
+          "name": "slime-move-0.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/move/slime-move-0.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAAA/UlEQVRIiWNgGAWjYBSMglEw0gEjJZo3nP76H5dcgCk3UWazkGuRkigTQ2BCHZzf293AwMDAwLBi/2u4HmIcgVcBzOIV+18zPLq4hYGBgYGhrCARw3IYEJeWZ2BgYGCQ0/eBi60oU8BrB1bJDae//ke2FAZePn2IzyysDiHkACZqW06qWgwHoIPdsk9IMhDZEY8ubmGI6HqAM6FidQCy718+fciwbeNxki0nBRAMgQpxM7INJyYUiMqG+AAswRECVtFT/h9bmoORIDEEYK5FjgZyLcUFkB2C0wHIAD1HYAOwvI+sVk7fB85HLhsYGBDlA848Sij1UgoIlQ90AwASHnYjhCSWagAAAABJRU5ErkJggg=="
+        },
+        {
+          "name": "slime-move-1.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/move/slime-move-1.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABDklEQVRIiWNgGAWjYBSMglEw0gEjpQZsOP31Py65AFNuguYT7QBcFimJMjEEJtTB+b3dDQwMDAwMK/a/htBlCnjtIOgAmMUwAx9d3MLAwMDAUFaQiGE5AwMDg7i0PAMDAwODnL4PXAyfI1gIWd41YT6G+MunD7FaDpODgC0YDsEGcLoMn+XEAuTQwBUKeEMABnbLPmFgYGBg0Dvxl2jLGRggjoU5AhdgwiaI7PuXTx8ybNt4nGTLiQVYHQBLcLDgrhA3o4nlOB3AwACJN0LBRwjA9MNyDkkOQDeEFEthGAbw5QSsKTOi68F/fK4mFsjp+8B9jysnYAhEdD3AWbRSA6woU2CM6Hrwn1AJSTcAANFQYj6jFjSdAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-move-2.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/move/slime-move-2.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABFElEQVRIiWNgGAWjYBSMglEw0gEjsQo3nP76H5u4kigTw73X/7DqCTDlJmg+XgXIlq7Y/5qBgYGB4dHFLQwMDAwMZQWJDEqiTAyBCXUoenq7G1DUryhTwGsHTskNp7/+X7H/NdxCZPDy6UOG9QuaMCxnYGBgEJeWZ2BgYGCQ0/eBi+FzBFYJQpYTA5Adgs8BLMQYtlv2CQMDAwOD3om/RFnOwIDs0C0MEV0P/uNyBBM2QWTfv3z6kGHbxuMkWU4KwOoAGID5okLcjGwLCEUZXgfA4pGWAKcDkFMxJcDUKxuvPMFEiCsUiM0Njy5uwesZnA5Az4Jy+j4oYugOg1mCrAZdDzaAkTUiuh5gLXKpBQiVjHQHAG7paGTXu/zAAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-move-3.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/move/slime-move-3.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABB0lEQVRIiWNgGAWjYBSMglEwCgYYMBKjaMPpr/+xiSuJMjHce/0PQzzAlJsoc/E6ANnSFftfMzAwMDA8uriFgYGBgaGsIJFBSZSJITChDkVPb3cDyY5hwWX5iv2v4RYig5dPH2K1nIGBgaFrwnwGBgYGBjl9H3x2ogAM1xGynBggLi2P4pAVZQo4QwFrCCCD3bJPGBgYGBj0TvwlynIGBmSHbiEYGkzoAsi+f/n0IcO2jcdJspxUgOEAGID5okLcjGzDiYkynA6AxSOtAUbiiOh68J+BAZLliE102ACyB/AlRqypM6LrwX/0XCCn74M1Z6Bbgk0NekJEdgjO7AELCVoBfFmTrgAAwVBkTjY5pq4AAAAASUVORK5CYII="
+        }
+      ],
+      "idle": [
+        {
+          "name": "slime-idle-0.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/idle/slime-idle-0.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABSElEQVRIie2UvU6EQBRGDxsTC2uzhVkkvgDV2mx8AUOhnaW9pZFYma01vseUFBsbC3pJSHwBI0YKQmlothArJsPPALuYWMjXwb0z37kzcy+MGjVq1H+XsUmyF2R539yz+V6vvXc2MRZ+CsDH60rGkjji8WFZyhd+WoJtg+mk9IIsF35aMq2aH+1PADi/vJOxAqqABhCuVfNrBehr/pZ+c32zLMWnB4cAmLbTCqC9gi7zQk3m5ZyVBPGCLK9eR683APA8+wTgKwxZYAM0GreBCJxaXAugVp/EEU/hCyezXRZruy9zL3WeQFHB7fQY1tsbJXGE2cA+0S0QrmWYtiMf01DNT68a/2sBVA2FaFuvbcOL+3c5SNS3MMS4aEm1HWsATca/LdN2JIT2Cqrm6kDRbVrNUb+LeDVHnoBaeVXCtYy2+DZqmop/oh/qoZSIlDQ3vAAAAABJRU5ErkJggg=="
+        },
+        {
+          "name": "slime-idle-1.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/idle/slime-idle-1.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABSklEQVRIie1VMU7DQBCcREh5AXJhxUZ8wBU0iA8gP4A/UEZBlKkTReIHtC5dRDQU6bFkKR9AOMKF5RK5SYEprDuOi3fv4ogKT2Xf7u3Mza3XQI8ePXr8dwwO3RAnVW3KidYlovszq9rWAgRxtC7l2nazIvO9IGzEGIRYCYiTqtaJizzDcjHD+ekQb+UXJtOZjC8XzbO6hxJiFBAnVT1/fPq1xpEDgOP6AH5c4AQMTeTqKQQ5AJJc5BR5hu1mJa/pdv7e2jukA4JcFHgZfwAAPtMUV7uA070Hx/XhBWGrCyc2BYo8w3P6iuvx6GByE0gB6ukB4MG5BHbdSIo8g0foZntAbD4WFzd3ZIwV4AUhHNeXXd0VXCOSTagmcwOHc0gX3jac9gTYEh8D9Ysgr0AnV4cKVVTPUd9FXM+RDlCDAmgs4+JdYPuz+nN8AzZCmqYelNueAAAAAElFTkSuQmCC"
+        },
+        {
+          "name": "slime-idle-2.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/idle/slime-idle-2.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABLklEQVRIiWNgGAWjYBSMgpEOGMnRtOH01//EqAsw5SZoPskO2HD66/8V+18zMDAwMDy6uIWhrCCRgYGBgaFrwnwUdTBxQo4gygHIPl6x/zXDo4tbGBgYGBhmtCYz3Hv9j6G4tAFFfW93A0PXhPkMcvo+ED1lCjjtYSHGcnTfwSwPTKjDqgebelwAbwhgs/zl04dEGy4uLU8wFJjwWQ6LawYGBobdsk8Y1r3eRLTlDAwQx8KiCxfA6QB0g7ZtPE6S5cQCnGkAlthgQV4hbsbA8Iv6DiAYAuLS8tS3lVgHwBIQJY6ApYOIrgdYCy+cuQBZA3JU4HMMeg5BVyun74ORGzAcgG4xLQCyQ3BGAbrlsOjAZyi6GmQ+TB5dDTwEcMURAwOkEMEnTw7AVzzTFQAA6sKANH+HUugAAAAASUVORK5CYII="
+        },
+        {
+          "name": "slime-idle-3.png",
+          "url": "/Users/andrey/WebstormProjects/mmorpg-engine/assets/sprites/slime/idle/slime-idle-3.png",
+          "base64": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAZCAYAAABQDyyRAAABO0lEQVRIie2Uv0rDUBTGfwY359JBjNIHMFN9CMmgm6POOjgVJ3FuEXwDp0LGCsHFoVsVOvUFxBQzhMwdtQ7lXm7jPfnTgC75bcm5J993z3dvoKGhoaHhn9mqsng0XSxt7zsth/f029pz0t3J1diuIhqMUwDmsxCA3vUFnZbD6fntWs/94E6vH00Xy2CcEvQOrEZyDahmJWiSxJFVHKD/8AiA6/natIQ4niLxMrR397URwDqFwggUL3ufABy+fZVtMYyG2kQWR2o2d5/EEc9Pr5XEy1I4AbWLm/bRxiJJHDEZ2g+hOAFYZadyrEP3+FKsyREYB6auifks5Kz/Yf2HiBGoBtfzrTehyFz2pkjf+JWL6TRPuA6T4ZXWFSPIikvXyKxn15jPqu56/tomtRMpI1idh7z6Jki/5j/nB6FtgbOlx5M3AAAAAElFTkSuQmCC"
+        }
+      ]
+    },
+    "config": {
+      "name": "slime",
+      "type": "folder-based",
+      "direction": "left",
+      "animations": [
+        "attack",
+        "dead",
+        "dying",
+        "hurt",
+        "idle",
+        "move"
+      ]
+    }
+  }
+}

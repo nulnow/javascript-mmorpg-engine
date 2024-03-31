@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+@layer components {
+    .bg-primary {
+        @apply bg-blue-600;
+    }
+
+    .focus-primary {
+        @apply bg-blue-600;
+    }
+}

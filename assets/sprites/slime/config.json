@@ -1,0 +1,6 @@
+{
+  "name": "slime",
+  "type": "folder-based",
+  "direction": "left",
+  "animations": ["attack", "dead", "dying", "hurt", "idle", "move"]
+}

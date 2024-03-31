@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+      <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠</text></svg>">
+<!--      <link rel="icon" href="data:image/svg+xml,<svg id=%22sw-js-blob-svg%22 viewBox=%220 0 100 100%22 xmlns=%22http://www.w3.org/2000/svg%22>                    <defs>                         <linearGradient id=%22sw-gradient%22 x1=%220%22 x2=%221%22 y1=%221%22 y2=%220%22>                            <stop id=%22stop1%22 stop-color=%22rgba(248, 117, 55, 1)%22 offset=%220%%22></stop>                            <stop id=%22stop2%22 stop-color=%22rgba(251, 168, 31, 1)%22 offset=%22100%%22></stop>                        </linearGradient>                    </defs>                <path fill=%22url(#sw-gradient)%22 d=%22M21.8,-27.5C27.8,-21,31.9,-13.7,34.6,-5.1C37.3,3.4,38.5,13.2,34.5,19.7C30.5,26.2,21.2,29.5,12,32.8C2.8,36,-6.4,39.3,-13.5,36.9C-20.7,34.4,-25.9,26.2,-30.9,17.8C-35.9,9.3,-40.7,0.7,-40.9,-8.7C-41,-18.1,-36.5,-28.2,-29,-34.4C-21.4,-40.7,-10.7,-43.2,-1.4,-41.6C7.9,-39.9,15.8,-34.1,21.8,-27.5Z%22 width=%22100%%22 height=%22100%%22 transform=%22translate(50 50)%22 stroke-width=%220%22 style=%22transition: all 0.3s ease 0s;%22 stroke=%22url(#sw-gradient)%22></path>              </svg>">-->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+    <title>mmorpg-engine</title>
+      <style>
+          @keyframes loadevent {
+              0% {
+                  opacity: 0;
+                  transform: translateY(30px);
+              }
+              50% {
+                  opacity: 20%;
+                  transform: translateY(-2px);
+              }
+              100% {
+                  opacity: 100%;
+                  transform: translateY(0px);
+              }
+          }
+          @keyframes loadeventReverse {
+              0% {
+                  opacity: 100%;
+                  transform: translateY(0px);
+              }
+              40% {
+                  opacity: 10%;
+                  /*transform: translateY(-0px);*/
+              }
+              100% {
+                  opacity: 0;
+                  transform: translateY(100px);
+              }
+          }
+
+          .loadEvent {
+              animation: 0.4s ease-in-out loadevent;
+          }
+          .loadEventReverse {
+              opacity: 0;
+              animation: 0.4s ease-in-out loadeventReverse;
+          }
+      </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./start-client.tsx"></script>
+  </body>
+</html>
