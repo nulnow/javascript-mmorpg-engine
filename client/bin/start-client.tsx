@@ -415,7 +415,11 @@ const Menu: React.FC<{ children?: React.ReactNode }> = () => {
               <NavButton>Donate</NavButton>
               <NavButton>Documentation</NavButton>
               <NavButton>About</NavButton>
-              <NavButton>GitHub</NavButton>
+              <NavButton>
+                <a href="https://github.com/nulnow/javascript-mmorpg-engine">
+                  GitHub
+                </a>
+              </NavButton>
             </div>
           </div>
         </>
