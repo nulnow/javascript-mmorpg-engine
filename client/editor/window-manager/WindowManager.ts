@@ -55,11 +55,6 @@ export class WindowManager {
       controller: windowController,
     };
 
-    this.windows.setValue({
-      ...this.windows.getValue(),
-      [win.id]: win,
-    });
-
     bsProduce(this.windowsList, (draft) => {
       draft.push(win);
     });
